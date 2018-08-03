@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sung Lee - Crystals Collector Game</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+	<div class="header text-center">
+		<h1>CRYSTALS COLLECTOR!</h1>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 instruction">
+				<p>You will be given a random number at the start of the game.
+
+                        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                        
+                        You win the game by matching your total score to the random number and you lose the game if your total score goes above the random number.
+                        
+						Each time the game starts, the game will change the values of each crystal.
+				</p>
+			</div>
+		</div>
+			<!-- Display Number to Guess, Wins,Losses, Total Score status-->
+			<h3>Number to Guess: <span id="numberGuess"></span></h3>
+			<h3 class="score">Wins:<span id="wins"> </span></h3> 
+			<h3 class="score">Losses: <span id="losses"></span></h3>
+			<h3>Total Score: <span id="yourScore"><span></h3>
+			<h2 id="winOrLose"></h2>
+			
+        <div class="row">
+                <div class="col-sm-3">
+                    <img class="crystalimage" id="crystal1" src="assets/images/crystal1.png" alt="Crystal 1"/>
+                </div>
+                <div class="col-sm-3">
+                    <img class="crystalimage" id="crystal2" src="assets/images/crystal2.png" alt="Crystal 2"/>
+                </div>
+                <div class="col-sm-3">
+                    <img class="crystalimage" id="crystal3" src="assets/images/crystal3.png" alt="Crystal 3"/>
+                </div>
+                <div class="col-sm-3">
+                    <img class="crystalimage" id="crystal4" src="assets/images/crystal4.png" alt="Crystal 4"/>
+                </div>
+         </div>
+	
+		<div class="row text-center">
+			  <button type="button" class="btn">PLAY AGAIN</button>
+		
+		</div>
+	</div>
+	
+</body>
+</html>

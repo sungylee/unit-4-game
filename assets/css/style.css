@@ -1,0 +1,66 @@
+
+body { 
+	background: url("../images/wallpaper4.jpg");
+    background-size: cover;
+	font-family: sans-serif, "Helvetica Neue", Helvetica, Arial, Helvetica, Arial;
+}
+
+h3 {
+	letter-spacing: 2px;
+	color: blue;
+
+}
+
+#magicNumber, #totalScore, #wins, #losses, .score {
+	color: blue;
+}
+
+h2 {
+	letter-spacing: 12px;
+	color: black;
+	text-align: center;
+}
+
+h1 {
+	color: black;
+	letter-spacing: 30px;
+	background: orange;
+}
+
+.crystalimage {
+	width: 150px;
+	margin: 40px auto; 
+}
+
+.instruction {
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 10px 65px;
+	margin: auto;
+}
+
+#winOrLose {
+	color: orange;
+	font-weight: bolder;
+	background-color: white;
+}
+
+.total, .scores {
+	margin: auto;
+}
+
+.btn {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	color: lightsteelblue;
+	letter-spacing: 3px;
+
+}
+
+.btn:hover {
+	background-color: orange; 
+	color: black
+}
+
